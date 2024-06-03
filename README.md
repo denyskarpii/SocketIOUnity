@@ -1,9 +1,5 @@
 # SocketIOUnity
 
-## Description
-A Wrapper for [socket.io-client-csharp](https://github.com/doghappy/socket.io-client-csharp) to work with Unity,
-Supports socket.io server v2/v3/v4, and has implemented http polling and websocket. 
-
 ## Give a Star! ⭐
 Feel free to request an issue on github if you find bugs or request a new feature. 
 If you find this useful, please give it a star to show your support for this project.
@@ -13,18 +9,11 @@ If you find this useful, please give it a star to show your support for this pro
 
 Other platforms (including the Editor) have not been tested and/or may not work!
 
-## Example
-![Example](https://github.com/itisnajim/SocketIOUnity/blob/main/Samples~/example.gif?raw=true)
-
 ## Installation
 Copy this url: 
 
-```https://github.com/itisnajim/SocketIOUnity.git```
+```https://github.com/denyskarpii/SocketIOUnity.git```
 then in Unity open Window -> Package Manager -> and click (+) add package from git URL... and paste it there.
-
-
-## Usage
-Check the 'Samples~' folder and [socket.io-client-csharp](https://github.com/doghappy/socket.io-client-csharp) repo for more usage info.
 
 ### Initiation: 
 You may want to put the script on the Camera Object or using ```DontDestroyOnLoad``` to keep the socket alive between scenes!
@@ -154,7 +143,7 @@ console.log('listening on *:' + port);
 
 ## Author
 
-itisnajim, itisnajim@gmail.com
+denyskarpii, denyskarpii@outlook.com
 
 ## License
 
